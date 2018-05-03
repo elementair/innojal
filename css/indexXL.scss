@@ -1,0 +1,252 @@
+@media only screen and (min-width: 1200px){
+	.flecha_abajo{
+		width: 50px;
+		height: 22px;
+	}
+
+	#asesoria_en_campo{
+		h2{
+			padding-left: 600px;
+		}
+
+		p{
+			padding-left: 600px;
+		}
+	}
+
+
+
+	#alianzas_comerciales{
+		h3{
+			padding-top: 54px;
+			width: 503px;
+		}
+
+		#carrousel_alianzas{
+			#slideshow_alianzas{
+				bottom: 50%;
+				transform: translateY(50%);
+				width: 300px;
+				height: 150px;
+			}
+		}
+
+
+		.rectangulo_blanco{
+			width: 210px;
+		}
+
+		.triangulo_blanco{
+			left: 210px;
+		}
+
+		.flecha_abajo{
+			width: 50px;
+			height: 22px;
+		}
+	}
+
+
+
+	#nuestros_clientes{
+		#carrousel_clientes{
+			width: 300px;
+			height: 150px;
+			bottom: 50%;
+			transform: translateY(50%);
+			right: 90px;
+		}
+
+		.flecha_abajo{
+			width: 50px;
+			height: 22px;
+		}
+
+	}
+
+
+
+	/*****Productos*****/
+	#Productos2b{
+		min-height: 700px;
+	}
+
+	#footerProductosB2{
+		p{
+			font-size: 14px;
+		}
+	}
+
+
+	/*****Footer*****/
+	.footerB1{
+		justify-content: center;
+
+		a{
+			margin-left: 5px;
+		}
+	}
+
+	.footerB2 {
+		p{
+			font-size: 14px;
+		}
+	}
+
+
+	#footerContactoB2{
+		p{
+			font-size: 14px;
+		}
+	}
+}
+
+
+
+
+/*****Estilos pantalla 1600*****/
+@media only screen and (min-width: 1500px){
+	#asesoria_en_campo{
+		h2{
+			width: 1110px;
+		}
+
+		#img_manos_asesoria{
+			width: 640px;
+			height: 678px;
+		}
+
+		.triangulo_izquierda{
+			    border-width: 100vh 0 0 800px;
+		}
+	}
+
+	#alianzas_comerciales{
+		#carrousel_alianzas{
+			#slideshow_alianzas{
+				bottom: 50%;
+				transform: translateY(50%);
+				width: 300px;
+				height: 150px;
+				left: 60px;
+			}
+		}
+
+		.rectangulo_blanco{
+			width: 350px;
+		}
+
+		.triangulo_blanco{
+			left: 350px;
+		}
+	}
+
+	#nuestros_clientes{
+		.rectangulo_blanco{
+			width: 350px;
+		}
+
+		.triangulo_blanco{
+			right: 350px;
+		}
+	}
+
+
+	/*****Productos*****/
+	#Productos2b input[type=search]{
+		padding-left: 30px;
+	}
+}
+
+
+
+
+
+
+/***Estilos para pantalla grandes****/
+@media only screen and (min-width: 1800px){
+	#asesoria_en_campo{
+		h2{
+			font-size: 105px;
+			padding-left: 950px;
+		}
+
+		p{
+			font-size: 30px;
+			padding-left: 950px;
+		}
+
+		#img_manos_asesoria{
+			width: 768px;
+			height: 780px;
+		}
+
+		.triangulo_izquierda{
+			display: initial;
+			border-width: 729px 0 0 648px;
+		}
+
+		.triangulo_derecha{
+			border-width: 0 0 360px 614px;
+		}
+	}
+
+
+	#alianzas_comerciales{
+		h3{
+			font-size: 150px;
+		}
+		
+		p{
+			font-size: 52px;
+		}
+
+		.rectangulo_blanco{
+			width: 420px;
+		}
+
+		.triangulo_blanco{
+			left: 420px;
+		}
+	}
+
+
+	#nuestros_clientes{
+		#carrousel_clientes{
+			width: 500px;
+			bottom: 950px;
+
+			#slideshow_clientes{
+				width: 500px;
+			}
+		}
+
+		.rectangulo_blanco{
+			width: 500px;
+		}
+
+		.triangulo_blanco{
+			right: 500px;
+		}
+	}
+
+
+
+
+	/*****Contacto*****/
+	#menuB{
+		padding-top: 0;
+	}
+
+	#Contacto1{
+		margin-bottom: 132px;
+	}
+
+	#mapa_contacto {
+	    margin-top: 200px;
+	    margin-bottom: 100px;
+	    height: 600px;
+	    width: 800px;
+	} 
+
+}

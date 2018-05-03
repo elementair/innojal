@@ -1,0 +1,78 @@
+@font-face {
+    font-family: SourceSansProRegular;
+    font-weight: bold;
+    src: url("SourceSansPro-Regular.otf") format("opentype");
+}
+@font-face {
+    font-family: SourceSansProSemiBold;
+    font-weight: bold;
+    src: url("SourceSansPro-Semibold.otf") format("opentype");
+}
+a:link   
+{   
+ text-decoration:none; 
+} 
+video{
+    background-size: cover;
+    bottom: 0;
+    height: auto;
+    min-height: 100%;
+    min-width: 100%;
+    position: fixed;
+    right: 0;
+    width: 100%;
+    z-index: -100;
+}
+#header{
+    padding-top: 2%;
+    padding-left: 2%;
+    font-family: SourceSansProRegular;
+    color: #FFF;
+}
+#logo{
+    width: 8%;
+}
+#navicon{
+    width: 40%;
+    cursor: pointer;
+    color: #000;
+}
+#menu{
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 3%;
+    right: 3%;
+}
+#menu span{
+    padding: 10px;
+}
+#slogan{
+    text-align: center;
+    font-family: SourceSansProSemiBold;
+    font-size: 40px;
+    color: #DAE168;
+    margin-top: 25%;
+}
+
+@media (max-width: 800px){
+    #inicio{
+        border: 1px solid #000;
+        height:100vh;
+    }
+    video{
+        width: auto; height: auto;
+    }
+    #logo{
+        width: 18%;
+    }
+    #header{
+        padding-top: 4%;
+        padding-left: 4%;
+    }
+
+    #slogan{
+        margin-top:50%;
+    }
+
+}

@@ -1,0 +1,222 @@
+@media only screen and (min-width: 768px){
+	/*****Generales*****/
+	#btnCloseMenu{
+		width: 38px;
+		height: 38px;
+	}
+
+	#fixedLogoNav{
+		margin-top: 20px;
+		margin-left: 20px;
+		
+		img{
+			width: 120px;
+			height: 90px;
+		}
+	}
+
+
+	#fixedBtn-menuIndex{
+		img{
+			margin-right: 20px;
+			margin-top: 20px;
+			width: 38px;
+			height: 38px;
+		}
+	}
+
+	/*****Index*****/
+	#asesoria_en_campo{
+		h2{
+			font-size: 58px;
+			padding-left: 218px;
+			padding-right: 170px;
+			padding-top: 38px;
+			line-height: 0.85;
+		}
+
+		p{
+			font-size: 20px;
+			padding-left: 218px;
+			padding-right: 30px;
+			margin-top: 12px;
+			line-height: 1;
+		}
+
+		.triangulo_izquierda{
+			display: none;
+		}
+
+		#img_manos_asesoria{
+			display: initial;
+			width: 242px;
+			height: 257px;
+		}
+	}
+
+
+
+	/*****Index*****/
+	#Index2{
+		#Index2A{
+			margin-top: 40px;
+		}
+
+		p{
+			font-size:23px;
+		}
+	}
+
+	#asesoria_en_campo{
+		h2{
+			font-size: 87px;
+			padding-left: 218px;
+			padding-right: 90px;
+			padding-top: 141px;
+		}
+
+		p{
+			font-size: 23px;
+			padding-left: 218px;
+			padding-right: 90px;
+			margin-top: 54px;
+			line-height: 1.2;
+		}
+
+		.triangulo_izquierda{
+			display: initial;
+			border-width: 486px 0 0 432px;
+		}
+
+		.triangulo_derecha{
+			border-width: 0 0 180px 307px;
+		}
+
+		#img_manos_asesoria{
+			width: 390px;
+			height: 414px;
+		}
+
+		.flecha_abajo{
+			width: 41px;
+			height: 18px;
+		}
+	}
+
+
+
+
+
+	#alianzas_comerciales{
+		.row{
+			flex-direction: column;
+		}
+		
+		h3{
+			font-size: 87px;
+			padding-top: 190px;
+		}
+
+		p{
+			padding-left: 45px;
+			padding-right: 30px;
+			line-height: 1.2;
+			font-size: 24px;
+		}
+
+		#carrousel_alianzas{
+			height: 204px;
+			width: 413px;
+			margin-top: 235px;
+
+			#slideshow_alianzas{
+				position: absolute;
+				bottom: 0;
+			}
+		}
+
+		.rectangulo_blanco{
+			display: none;
+		}
+
+		.triangulo_blanco{
+			left: 0;
+			border-width: 745px 0 0 610px;
+			border-color: transparent transparent transparenthsla(0, 100%, 100%, 0.6);
+		}
+
+		.flecha_abajo{
+			width: 41px;
+			height: 18px;
+		}
+	}
+
+
+
+
+
+	#nuestros_clientes{
+		h3{
+			font-size: 88px;
+			padding-left: 50px;
+			padding-top: 180px;
+			width: 465px;
+			line-height: 1;
+		}
+
+		#carrousel_clientes{
+			width: 256px;
+			height: 128px;
+			bottom: 290px;
+			right: 90px;
+		}
+
+		.flecha_abajo{
+			position: absolute;
+			bottom: 22px;
+			left: 50%;
+			transform: translateX(-50%);
+			width: 31px;
+			height: 14px;
+		}
+
+		.rectangulo_blanco{
+			position: absolute;
+			right: 0;
+			bottom: 0;
+			width: 370px;
+			height: 100vh;
+		}
+
+		.triangulo_blanco{
+			position: absolute;
+			width: 0;
+			height: 0;
+			right: 370px;
+			bottom: 0;
+			border-style: solid;
+			border-width: 0 0 100vh 300px;
+			border-color: transparent transparent rgba(255, 255, 255, 0.85) transparent;
+
+		}
+	}
+
+
+	.footerB1{
+		justify-content: center;
+
+		a{
+			margin-top: 7px;
+			margin-right: 5px;
+		}
+	}
+
+
+	/*****Contacto*****/
+	#mapa_contacto{
+		margin-top: 30px;
+		margin-bottom: 60px;
+		height: 300px;
+		width: 400px;
+	}
+}

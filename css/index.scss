@@ -1,0 +1,276 @@
+$color_verde: #66cc33;
+$color_gris: #999999;
+
+/*****Elementos generales*****/
+#btnCloseMenu{
+	margin-right: 18px;
+		margin-top: 24px;
+		width:  42px;
+		height: 42px;
+}
+
+#fixedLogoNav{
+	margin-left: 28px;
+	margin-top: 24px;
+
+	img{
+		width: 80px;
+		height: 61px;
+	}
+}
+
+
+#fixedBtn-menuIndex{
+	img{
+		margin-right: 18px;
+		margin-top: 24px;
+		width:  42px;
+		height: 42px;
+	}
+}
+
+/*****Index*****/
+#Index1{
+	h1{
+		text-shadow: 1px 1px 75px #000;
+	}
+}
+
+#Index2B{
+	p{
+		font-size: 15px;
+	}
+}
+
+#asesoria_en_campo{
+	background-color: white;
+	position: relative;
+	height: 100vh;
+
+	h2{
+		font-family: SourceSansPro-Bold;
+		color: $color_verde;
+		font-size: 69px;
+		padding-left: 30px;
+		padding-right: 30px;
+		line-height: 1;
+		letter-spacing: -1px;
+		padding-top: 83px;
+	}
+
+	p{
+		font-family: SourceSansPro-Regular;
+		color: $color_gris;
+		padding-left: 30px;
+		padding-right: 30px;
+		margin-top: 12px;
+	}
+
+	.triangulo_izquierda{
+		width: 0;
+		height: 0;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		border-style: solid;
+		border-width: 72px 0 0 214px;
+		border-color: transparent transparent transparent $color_verde;
+	}
+
+	.triangulo_derecha{
+		width: 0;
+		height: 0;
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		border-style: solid;
+		border-width: 0 0 32px 96px;
+		border-color: transparent transparent $color_verde transparent;
+	}
+
+	#img_manos_asesoria{
+		display: none;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+	}
+
+	.flecha_abajo{
+		width: 31px;
+		height: 14px;
+		position: absolute;
+		bottom: 22px;
+		left: 50%;
+		transform: translateX(-50%);
+		cursor: pointer;
+	}
+
+	.indicadorDerecha3{
+		background-color: $color_verde;
+	}
+}
+
+
+
+#alianzas_comerciales{
+	background-image: url(../img/img_berries.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+	position: relative;
+	
+	h3{
+		font-family: SourceSansPro-Bold;
+		font-size: 56px;
+		text-align: left;
+		padding-left: 30px;
+		padding-right: 30px;
+		line-height: 1;
+		padding-top: 83px;
+		text-shadow: 1px 1px 75px #000;
+	}
+
+	p{
+		font-family: SourceSansPro-Regular;
+		font-size: 21px;
+		padding-left: 30px;
+		padding-right: 30px;
+		line-height: 1.4;
+		text-shadow: 1px 1px 75px #000;
+	}
+
+	#carrousel_alianzas{
+		height: 161px;
+		background-color: rgba(255, 255, 255, 0.8);
+
+		i{
+			color: $color_gris;
+		}
+	}
+
+	.flecha_abajo{
+		position: absolute;
+		bottom: 22px;
+		left: 50%;
+		transform: translateX(-50%);
+		width: 31px;
+		height: 14px;
+		cursor: pointer;
+	}
+
+	.rectangulo_blanco{
+		display: none;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		background-color: rgba(255, 255, 255, 0.6);
+		height: 100%;
+		width: 169px;
+	}
+
+	.triangulo_blanco{
+		display: none;
+		position: absolute;
+		bottom: 0;
+		left: 169px;
+	}
+
+	.indicadorDerecha4{
+		background-color: $color_verde;
+	}
+}
+
+
+#nuestros_clientes{
+	background-image: url(../img/img_trigo.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+	position: relative;
+
+	h3{
+		font-family: SourceSansPro-Bold;
+		font-size: 56px;
+		text-align: left;
+		padding-left: 30px;
+		padding-top: 83px;
+		color: white;
+		text-shadow: 1px 1px 75px #000;
+	}
+
+	#carrousel_clientes{
+		width: 100%;
+		height: 161px;
+		position: absolute;
+		left: 0;
+		bottom: 64px;
+		background: rgba(255, 255, 255, 0.8);
+	}
+
+	.flecha_abajo{
+		position: absolute;
+		bottom: 22px;
+		left: 50%;
+		transform: translateX(-50%);
+		width: 31px;
+		height: 14px;
+		cursor: pointer;
+	}
+
+	.indicadorDerecha5{
+		background-color: $color_verde;
+	}
+
+}
+
+#NavFooter{
+	visibility:hidden;
+}
+
+
+
+
+/*****Producto Individual*****/
+.btn_link_PI{
+	background: none;
+	border: 1px solid #006633;
+	font-family: SourceSansPro-Regular;
+	font-size: 15.7px;
+	color: #006633;
+	padding: 10.5px 13.5px 10.5px 13.5px;
+	cursor: pointer;
+	margin-top: 27px;
+	margin-bottom: 46px;
+	text-decoration: none;
+}
+
+.btn_link_PI:hover{
+	text-decoration: none;
+	color: #006633;
+}
+
+.btn_link_PI:visited{
+	text-decoration: none;
+	color: #006633;
+}
+
+.btn_link_PI:active{
+	text-decoration: none;
+	color: #006633;
+}
+
+
+
+/*****Contacto*****/
+#mapa_contacto{
+	display: block;
+	margin: auto;
+	margin-bottom: 30px;
+	height: 200px;
+	width: 300px;
+}	
+
+@import 'indexSM';
+@import 'indexMD';
+@import 'indexLG';
+@import 'indexXL';

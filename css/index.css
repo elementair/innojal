@@ -1,0 +1,919 @@
+@charset "UTF-8";
+/*****Elementos generales*****/
+a:link   
+{   
+ text-decoration:none; 
+} 
+
+#inicio{
+  color: #78d3fb;
+}
+#contacto_ex{
+  color: #78d3fb;
+}
+#quienes_somos_ex2{
+  color: #78d3fb; 
+}
+.btn_open_menu_responsive{
+  padding: 10px;
+  color: #fff;
+}
+#btnCloseMenu {
+  margin-right: 18px;
+  margin-top: 24px;
+  width: 42px;
+  height: 42px; }
+
+#fixedLogoNav {
+  margin-left: 28px;
+  margin-top: 24px; }
+  #fixedLogoNav img {
+    width: 80px;
+     }
+
+#fixedBtn-menuIndex img {
+  margin-right: 18px;
+  margin-top: 24px;
+  width: 42px;
+  height: 42px; }
+
+/*****Index*****/
+#Index1 h1 {
+  text-shadow: 1px 1px 75px #000; }
+
+#Index2B p {
+  font-size: 15px; }
+
+#asesoria_en_campo {
+  /*background-image: url(../img/calidad.jpg);*/
+  background-repeat: no-repeat;
+  /*background-position: center;*/
+  background-size: cover;
+  position: relative;
+  height: 100vh; }
+  #asesoria_en_campo h2 {
+    font-family: SourceSansPro-Bold;
+    color: #fff;
+    font-size: 69px;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 1;
+    letter-spacing: -1px;
+    padding-top: 83px; }
+  #asesoria_en_campo p {
+    font-family: SourceSansPro-Regular;
+    color: #fff;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 12px; }
+  #asesoria_en_campo .triangulo_izquierda {
+    width: 0;
+    height: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-style: solid;
+    border-width: 72px 0 0 214px;
+    border-color: transparent transparent transparent #66cc33; }
+  #asesoria_en_campo .triangulo_derecha {
+    width: 0;
+    height: 0;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-style: solid;
+    border-width: 0 0 32px 96px;
+    border-color: transparent transparent #66cc33 transparent; }
+  #asesoria_en_campo #img_manos_asesoria {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 0; }
+  #asesoria_en_campo .flecha_abajo {
+    width: 31px;
+    height: 14px;
+    position: absolute;
+    bottom: 22px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer; }
+  #asesoria_en_campo .indicadorDerecha3 {
+    background-color: #fff; }
+
+#alianzas_comerciales {
+  background-image: url(../img/productos.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  position: relative; }
+  #alianzas_comerciales h3 {
+    font-family: SourceSansPro-Bold;
+    font-size: 56px;
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 1;
+    padding-top: 83px;
+    text-shadow: 1px 1px 75px #000; }
+  #alianzas_comerciales p {
+    font-family: SourceSansPro-Regular;
+    font-size: 14px;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 1.4;
+    text-shadow: 1px 1px 75px #000; }
+  #alianzas_comerciales #carrousel_alianzas {
+    height: 161px;
+    background-color: rgba(255, 255, 255, 0.8); }
+    #alianzas_comerciales #carrousel_alianzas i {
+      color: #999999; }
+  #alianzas_comerciales .flecha_abajo {
+    position: absolute;
+    bottom: 22px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 31px;
+    height: 14px;
+    cursor: pointer; }
+  #alianzas_comerciales .rectangulo_blanco {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.6);
+    height: 100%;
+    width: 169px; }
+  #alianzas_comerciales .triangulo_blanco {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 169px; }
+  #alianzas_comerciales .indicadorDerecha4 {
+    background-color: #fff; }
+
+#nuestros_clientes {
+  background-image: url(../img/contacto.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  position: relative; }
+  #nuestros_clientes h3 {
+    font-family: SourceSansPro-Bold;
+    font-size: 56px;
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 83px;
+    color: white;
+    text-shadow: 1px 1px 75px #000; }
+  #nuestros_clientes #carrousel_clientes {
+    width: 100%;
+    height: 350px;
+    position: absolute;
+    left: 0;
+    padding: 20px;
+    bottom: 0px;
+    background: rgba(255, 255, 255, 0.8); }
+  #nuestros_clientes .flecha_abajo {
+    position: absolute;
+    bottom: 22px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 31px;
+    height: 14px;
+    cursor: pointer; }
+  #nuestros_clientes .indicadorDerecha5 {
+    background-color: #305480; }
+
+#NavFooter {
+  visibility: hidden; }
+
+/*****Producto Individual*****/
+.btn_link_PI {
+  background: none;
+  border: 1px solid #006633;
+  font-family: SourceSansPro-Regular;
+  font-size: 15.7px;
+  color: #006633;
+  padding: 10.5px 13.5px 10.5px 13.5px;
+  cursor: pointer;
+  margin-top: 27px;
+  margin-bottom: 46px;
+  text-decoration: none; }
+
+.btn_link_PI:hover {
+  text-decoration: none;
+  color: #006633; }
+
+.btn_link_PI:visited {
+  text-decoration: none;
+  color: #006633; }
+
+.btn_link_PI:active {
+  text-decoration: none;
+  color: #006633; }
+
+/*****Contacto*****/
+#mapa_contacto{
+  display: block;
+  margin: auto;
+  margin-bottom: 30px;
+  height: 200px;
+  width: 300px; 
+}
+#btn_escribenos{
+  margin: 5% 10%;
+}
+#btn_leer_mas{
+  margin: 10% 2%;
+}
+.contenedor_menu_fixed_nosotros{
+  width: 46%;
+  height: 60px;
+  position: fixed;
+  display: inline-flex;
+  background-color: #fff;
+}
+#nosotros2b{
+  margin-top: 100px;
+}
+@media only screen and (min-width: 300px) {
+  .contenedor_menu_fixed_nosotros{
+  background-color:  #0000;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  /*****Generales*****/
+  /*****Botones de navegaci├│n men├║*****/
+  
+.btn_open_menu_responsive{
+  display: initial;
+}
+.contenedor_menu_fixed_nosotros{
+  background-color:  #0000;
+  }
+  #btnCloseMenu {
+    margin-right: 20px;
+    margin-top: 20px; }
+
+  #fixedLogoNav {
+    margin-top: 28px; }
+
+  #fixedBtn-menuIndex .btn-menuText {
+    top: 15px;
+    right: 15px;
+    display: none;
+    padding: 10px;
+    color: #305480;
+    /*text-shadow:0px 2px 10px #000045;*/
+    }
+    .btn_open_menu_responsive{
+      display: initial;
+      color: #fff;
+      padding: 5px;
+    }
+
+  .seccion_menu{
+    cursor: pointer;
+    margin: 10px;
+  }
+  #fixedBtn-menuIndex img {
+    margin-right: 20px;
+    margin-top: 20px; }
+
+  /*****Index*****/
+  #Index1 .btn-menuText {
+    display: none; }
+
+  #Index2 .btn-menuText {
+    display: none; }
+
+  #Index2B p {
+    font-size: 15px; }
+
+  #asesoria_en_campo h2 {
+    font-size: 40px;
+    padding-left: 218px;
+    padding-right: 170px;
+    padding-top: 100px;
+    line-height: 0.85; }
+  #asesoria_en_campo p {
+    font-size: 15px;
+    padding-left: 218px;
+    padding-right: 30px;
+    margin-top: 12px;
+    line-height: 1; }
+  #asesoria_en_campo .triangulo_izquierda {
+    display: none; }
+  #asesoria_en_campo #img_manos_asesoria {
+    display: initial;
+    width: 242px;
+    height: 257px; }
+
+  #alianzas_comerciales .row {
+    flex-direction: row-reverse; }
+  #alianzas_comerciales h3 {
+    padding-top: 90px;
+    font-size: 40px;}
+  #alianzas_comerciales p {
+    padding-left: 45px;
+    padding-right: 30px;
+    font-size: 12px
+    line-height: 0.9; }
+  #alianzas_comerciales #carrousel_alianzas {
+    background-color: transparent;
+    position: relative;
+    height: 100vh; }
+    #alianzas_comerciales #carrousel_alianzas #slideshow_alianzas {
+      position: absolute;
+      bottom: 60px; }
+  #alianzas_comerciales .rectangulo_blanco {
+    display: initial; 
+    width: 200px;
+  }
+  #alianzas_comerciales .triangulo_blanco {
+    display: initial;
+    width: 0;
+    left: 200px;
+    height: 0;
+    border-style: solid;
+    border-width: 100vh 0 0 108px;
+    border-color: transparent transparent transparent rgba(255, 255, 255, 0.6); }
+
+  #nuestros_clientes h3 {
+    padding-left: 30px;
+    padding-top: 83px;
+    font-size: 40px;
+    width: 220px;
+    line-height: 1; }
+  #nuestros_clientes #carrousel_clientes {
+    width: 256px;
+    height: 200px;
+    font-size: 12px;
+    left: initial;
+    bottom: 52px;
+    right: 0px;
+    background: transparent; }
+  #nuestros_clientes .flecha_abajo {
+    position: absolute;
+    bottom: 22px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 31px;
+    height: 14px; }
+  #nuestros_clientes .rectangulo_blanco {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 195px;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.85); }
+  #nuestros_clientes .triangulo_blanco {
+    position: absolute;
+    width: 0;
+    height: 0;
+    right: 195px;
+    bottom: 0;
+    border-style: solid;
+    border-width: 0 0 100vh 169px;
+    border-color: transparent transparent rgba(255, 255, 255, 0.85);
+    }
+  .footerB1 {
+    justify-content: center; }
+    .footerB1 a {
+      margin-top: 15px;
+      margin-right: 5px; }
+
+  /*****Contacto****/
+  #mapa_contacto {
+    margin-top: 100px;
+    height: 200px;
+    width: 250px; } }
+
+@media only screen and (min-width: 768px) {
+  /*****Generales*****/
+  #fixedBtn-menuIndex .btn-menuText {
+    display: none;
+  }
+  #btnCloseMenu {
+    width: 38px;
+    height: 38px; }
+
+  #fixedLogoNav {
+    margin-top: 20px;
+    margin-left: 20px; }
+    #fixedLogoNav img {
+      width: 120px;
+      }
+
+  #fixedBtn-menuIndex img {
+    margin-right: 20px;
+    margin-top: 20px;
+    width: 38px;
+    height: 38px; }
+
+  /*****Index*****/
+  #asesoria_en_campo h2 {
+    font-size: 58px;
+    padding-left: 218px;
+    padding-right: 170px;
+    padding-top: 38px;
+    line-height: 0.85; }
+  #asesoria_en_campo p {
+    font-size: 20px;
+    padding-left: 218px;
+    padding-right: 30px;
+    margin-top: 12px;
+    line-height: 1; }
+  #asesoria_en_campo .triangulo_izquierda {
+    display: none; }
+  #asesoria_en_campo #img_manos_asesoria {
+    display: initial;
+    width: 242px;
+    height: 257px; }
+
+  /*****Index*****/
+  #Index2 #Index2A {
+    margin-top: 40px; }
+  #Index2 p {
+    font-size: 23px; }
+
+  #asesoria_en_campo h2 {
+    font-size: 87px;
+    padding-left: 218px;
+    padding-right: 90px;
+    padding-top: 141px; }
+  #asesoria_en_campo p {
+    font-size: 23px;
+    padding-left: 218px;
+    padding-right: 90px;
+    margin-top: 54px;
+    line-height: 1.2; }
+  #asesoria_en_campo .triangulo_izquierda {
+    display: initial;
+    border-width: 486px 0 0 432px; }
+  #asesoria_en_campo .triangulo_derecha {
+    border-width: 0 0 180px 307px; }
+  #asesoria_en_campo #img_manos_asesoria {
+    width: 390px;
+    height: 414px; }
+  #asesoria_en_campo .flecha_abajo {
+    width: 41px;
+    height: 18px; }
+
+  #alianzas_comerciales .row {
+    flex-direction: column; }
+  #alianzas_comerciales h3 {
+    font-size: 87px;
+    padding-top: 190px; }
+  #alianzas_comerciales p {
+    padding-left: 45px;
+    padding-right: 30px;
+    line-height: 1.2;
+    font-size: 24px; }
+  #alianzas_comerciales #carrousel_alianzas {
+    height: 204px;
+    width: 413px;
+    margin-top: 235px; }
+    #alianzas_comerciales #carrousel_alianzas #slideshow_alianzas {
+      position: absolute;
+      bottom: 0; }
+  #alianzas_comerciales .rectangulo_blanco {
+    display: none; }  
+  #alianzas_comerciales .triangulo_blanco {
+    left: 0;
+    border-width: 745px 0 0 610px;
+    border-color: transparent transparent transparenthsla(0, 100%, 100%, 0.6); }
+  #alianzas_comerciales .flecha_abajo {
+    width: 41px;
+    height: 18px; }
+
+  #nuestros_clientes h3 {
+    font-size: 70px;
+    padding-left: 50px;
+    padding-top: 50px;
+    width: 465px;
+    line-height: 1; }
+  #nuestros_clientes #carrousel_clientes {
+    width: 300px;
+    height: 128px;
+    font-size: 20px;
+    bottom: 580px;
+    right: 90px; }
+  #nuestros_clientes .flecha_abajo {
+    position: absolute;
+    bottom: 22px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 31px;
+    height: 14px; }
+  #nuestros_clientes .rectangulo_blanco {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 370px;
+    height: 100vh; }
+  #nuestros_clientes .triangulo_blanco {
+    position: absolute;
+    width: 0;
+    height: 0;
+    right: 370px;
+    bottom: 0;
+    border-style: solid;
+    border-width: 0 0 100vh 300px;
+    border-color: transparent transparent rgba(255, 255, 255, 0.85) transparent; }
+
+  .footerB1 {
+    justify-content: center; }
+    .footerB1 a {
+      margin-top: 7px;
+      margin-right: 5px; }
+
+  /*****Contacto*****/
+  #mapa_contacto {
+    margin-top: 24%;
+    margin-bottom: 60px;
+    height: 373px;
+    margin-left: -50px;
+    width: 530px;
+    } 
+  }
+@media only screen and (min-width: 992px) {
+  #fixedBtn-menuIndex .btn-menuText {
+    top: 10px;
+
+    right: 0px; }
+
+  /*****Index*****/
+.btn_open_menu_responsive{
+  /*display: none;*/
+}
+  #asesoria_en_campo h2 {
+    padding-left: 470px;
+    font-size: 60px;
+
+    padding-top: 141px; }
+  #asesoria_en_campo p {
+    padding-left: 470px;
+    margin-top: 27px;
+    
+    }
+  #asesoria_en_campo #img_manos_asesoria {
+    width: 512px;
+    height: 543px; }
+
+  #alianzas_comerciales .row {
+    flex-direction: row-reverse; }
+  #alianzas_comerciales p {
+    padding-left: 45px;
+    font-size: 18px;
+    padding-left: 200px;
+    padding-right: 120px; }
+  #alianzas_comerciales #carrousel_alianzas {
+    height: 100vh;
+    width: 360px;
+    margin-top: 0; }
+    #alianzas_comerciales #carrousel_alianzas #slideshow_alianzas {
+      position: absolute;
+      bottom: 50px;
+      left: 30px; }
+  #alianzas_comerciales .rectangulo_blanco {
+    display: initial;
+    width: 140px; }
+  #alianzas_comerciales .triangulo_blanco {
+    left: 140px;
+    border-width: 100vh 0 0 330px; }
+  #alianzas_comerciales .flecha_abajo {
+    width: 41px;
+    height: 18px; }
+
+  .footerB1 a {
+    margin-top: 0;
+    margin-right: 5px; }
+
+  .footerB2 p {
+    font-size: 12px; } }
+@media only screen and (min-width: 1200px) {
+
+  #menuA{
+    display: none;
+  }
+  #menuB{
+    display: none;
+  }
+  #fixedBtn-menuIndex .btn-menuText {
+      display: inline-flex;
+  }
+  .contenedor_menu_fixed_nosotros {
+      background-color: #fff;
+  }
+
+    .flecha_abajo {
+      width: 50px;
+      height: 22px; }
+  .btn_open_menu_responsive{
+    display: none;
+  }
+  #asesoria_en_campo h2 {
+    padding-left: 600px;
+    font-size: 40px;
+    margin-left: 300px; }
+  #asesoria_en_campo p {
+    padding-left: 900px; }
+
+  #alianzas_comerciales h3 {
+    font-size: 50px;
+    padding-top: 20px;
+    width: 503px;
+    padding-left: 200px; }
+  #alianzas_comerciales #carrousel_alianzas #slideshow_alianzas {
+    bottom: 50%;
+    transform: translateY(50%);
+    width: 500px;
+    height: 150px; }
+  #alianzas_comerciales .rectangulo_blanco {
+    width: 510px; }
+  #alianzas_comerciales .triangulo_blanco {
+    left: 510px; }
+  #alianzas_comerciales .flecha_abajo {
+    width: 50px;
+    height: 22px; }
+
+  #nuestros_clientes #carrousel_clientes {
+    width: 300px;
+    height: 350px;
+    bottom: 50%;
+    font-size: 15px;
+    transform: translateY(50%);
+    right: 90px; }
+  #nuestros_clientes .flecha_abajo {
+    width: 50px;
+    height: 22px; }
+
+  /*****Productos*****/
+  #Productos2b {
+    min-height: 700px; }
+
+  #footerProductosB2 p {
+    font-size: 14px; }
+
+  /*****Footer*****/
+  .footerB1 {
+    justify-content: center; }
+    .footerB1 a {
+      margin-left: 5px; }
+
+  .footerB2 p {
+    font-size: 14px; }
+
+  #footerContactoB2 p {
+    font-size: 14px; } }
+/*****Estilos pantalla 1600*****/
+@media only screen and (min-width: 1500px) {
+  #Contacto1a h1 {
+    color: white;
+   
+    font-size: 40px;
+    margin-top: 20%;
+    margin-bottom: 20px;
+}
+#nosotros2 h3 {
+  
+    font-size: 50px;
+    margin-top: 40px;
+}
+#nosotros2 p {
+    font-size: 26px;
+    width: 80%;
+}
+  #Index1 h1 {
+    font-size: 45px;
+    margin-top: 500px;
+  }
+  #Index2B h3 {
+    font-size: 60px;
+    padding-right: 50%;
+    margin-left: -30px;
+  }
+  #Index2B {
+    margin-left: 5.3333%;  
+  }
+  #Index2 p {
+    font-size: 26px;
+  }
+  #fixedBtn-menuIndex .btn-menuText {
+    font-size: 20px;
+  }
+
+  #alianzas_comerciales p {
+    padding-left: 45px;
+    padding-top: 20px;
+    font-size: 24px;
+    padding-left: 300px;
+    padding-right: 140px;
+  }
+  #nuestros_clientes h3 {
+    font-size: 60px;
+    padding-left: 120px;
+    padding-top: 120px;
+  }
+  #nuestros_clientes #carrousel_clientes {
+    width: 400px;
+    height: 450px;
+    bottom: 50%;
+    font-size: 22px;
+  }
+  #alianzas_comerciales h3 {
+      font-size: 60px;
+      padding-top: 10px;
+      width: 503px;
+      padding-left: 295px;
+  }
+  #asesoria_en_campo h2 {
+    width: 1000px;
+    padding-left: 600px;
+    font-size: 60px;
+    margin-left: 330px;
+    padding-top: 250px;
+}
+#asesoria_en_campo p {
+    padding-left: 920px;
+    font-size: 26px;
+}
+  #asesoria_en_campo #img_manos_asesoria {
+    width: 640px;
+    height: 678px; }
+  #asesoria_en_campo .triangulo_izquierda {
+    border-width: 100vh 0 0 800px; }
+
+  #alianzas_comerciales #carrousel_alianzas #slideshow_alianzas {
+    bottom: 50%;
+    transform: translateY(50%);
+    width: 500px;
+    height: 150px;
+    left: 60px; }
+  #alianzas_comerciales .rectangulo_blanco {
+    width: 650px; }
+  #alianzas_comerciales .triangulo_blanco {
+    left: 650px; }
+
+  #nuestros_clientes .rectangulo_blanco {
+    width: 450px; }
+  #nuestros_clientes .triangulo_blanco {
+    right: 450px; }
+
+  /*****Productos*****/
+  #Productos2b input[type=search] {
+    padding-left: 30px; } }
+/***Estilos para pantalla grandes****/
+@media only screen and (min-width: 1800px) {
+.contenedor_menu_fixed_nosotros {
+    width: 56%;
+    height: 90px;
+   
+}
+#nosotros2 h3 {
+    font-size: 70px;
+    margin-top: 50px;
+    /* margin-top: 0px; */
+}
+#nosotros2 p {
+    font-size: 34px;
+    width: 80%;
+}
+  #Index2 p {
+      font-size: 30px;
+      padding-left: -370px;
+  }
+  #nuestros_clientes h3 {
+    font-size: 90px;
+    padding-left: 150px;
+    padding-top: 150px;
+  }
+  #nuestros_clientes #carrousel_clientes {
+    width: 300px;
+    height: 890px;
+    bottom: 50%;
+    font-size: 28px;
+    transform: translateY(50%);
+    right: 80px;
+  }
+  #fixedLogoNav img {
+      width: 180px;
+  }
+  #fixedBtn-menuIndex .btn-menuText {
+    font-size: 25px;
+  }
+  .btn_open_menu_responsive{
+  display: none;
+}
+  #asesoria_en_campo h2 {
+    font-size: 90px;
+    padding-top: 300px;
+    padding-left: 750px; }
+  #asesoria_en_campo p {
+    font-size: 30px;
+    width: 90%;
+    padding-left: 1050px; }
+  #asesoria_en_campo #img_manos_asesoria {
+    width: 768px;
+    height: 780px; }
+  #asesoria_en_campo .triangulo_izquierda {
+    display: initial;
+    border-width: 729px 0 0 648px; }
+  #asesoria_en_campo .triangulo_derecha {
+    border-width: 0 0 360px 614px; }
+
+  #alianzas_comerciales h3 {
+    font-size: 90px; }
+  #alianzas_comerciales p {
+    font-size: 30px; }
+  #alianzas_comerciales .rectangulo_blanco {
+    width: 820px; }
+  #alianzas_comerciales .triangulo_blanco {
+    left: 820px; }
+
+  #nuestros_clientes #carrousel_clientes {
+    width: 500px;
+    bottom: 323px; }
+    #nuestros_clientes #carrousel_clientes #slideshow_clientes {
+      width: 500px; }
+  #nuestros_clientes .rectangulo_blanco {
+    width: 600px; }
+  #nuestros_clientes .triangulo_blanco {
+    right: 600px; }
+
+  /*****Contacto*****/
+  #menuB {
+    padding-top: 0; }
+
+  #Contacto1 {
+    /*margin-bottom: 132px; */
+  }
+
+  #mapa_contacto {
+    margin-top: 200px;
+    margin-bottom: 100px;
+    height: 600px;
+    width: 800px; } 
+#Contacto1a h1 {
+    color: white;
+    font-family: SourceSansPro-Bold;
+    font-size: 60px;
+    margin-top: 16%;
+    padding: 30px;
+    margin-bottom: 13.5px;
+}
+
+
+#formContacto #nombreContacto{
+   
+    width: 550px;
+    height: 45px;
+    font-size: 22px;
+    padding-left: 20px;
+    margin-bottom: 15px;
+    
+  }
+
+  #formContacto #emailContacto{
+   
+    width: 550px;
+    height: 45px;
+    font-size: 22px;
+    padding-left: 20px;
+    margin-bottom: 15px;
+
+  }
+
+  #formContacto #asuntoContacto{
+
+    width: 550px;
+    height: 45px;
+    font-size: 22px;
+    padding-left: 20px;
+    margin-bottom: 15px;
+
+  }
+
+  #formContacto #mensajeContacto{
+
+    width: 550px;
+    height: 325px;
+    font-size: 22px;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 0;
+    margin-bottom: 14px;
+
+  }
+  #alianzas_comerciales #carrousel_alianzas #slideshow_alianzas {
+
+    width: 700px;
+    height: 350px;
+    left: 100px;
+  }
+  }
+
+/*# sourceMappingURL=index.css.map */

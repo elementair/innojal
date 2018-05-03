@@ -1,0 +1,190 @@
+@media only screen and (min-width: 576px){
+	/*****Generales*****/
+
+
+	/*****Botones de navegación menú*****/
+	#btnCloseMenu{
+		margin-right: 20px;
+		margin-top: 20px;
+	}
+
+	#fixedLogoNav{
+		margin-top: 28px;
+	}
+
+
+	#fixedBtn-menuIndex{
+		.btn-menuText{
+			top: 15px;
+			right: 15px;
+			color: white;
+		}
+
+		img{
+			margin-right: 20px;
+			margin-top: 20px;
+		}
+	}
+
+	/*****Index*****/
+	#Index1{
+		.btn-menuText{
+			display:none;
+		}
+	}
+
+	#Index2{
+		.btn-menuText{
+			display: none;
+		}
+	}
+
+	#Index2B{
+		p{
+			font-size: 15px;
+		}
+	}
+
+
+	#asesoria_en_campo{
+		h2{
+			font-size: 58px;
+			padding-left: 218px;
+			padding-right: 170px;
+			padding-top: 38px;
+			line-height: 0.85;
+		}
+
+		p{
+			font-size: 15px;
+			padding-left: 218px;
+			padding-right: 30px;
+			margin-top: 12px;
+			line-height: 1;
+		}
+
+		.triangulo_izquierda{
+			display: none;
+		}
+
+		#img_manos_asesoria{
+			display: initial;
+			width: 242px;
+			height: 257px;
+		}
+	}
+
+
+
+
+
+	#alianzas_comerciales{
+		.row{
+			flex-direction: row-reverse;
+		}
+		
+		h3{
+			padding-top: 56px;
+		}
+
+		p{
+			padding-left: 45px;
+			padding-right: 30px;
+			line-height: 0.9;
+		}
+
+		#carrousel_alianzas{
+			background-color: transparent;
+			position: relative;
+			height: 100vh;
+
+			#slideshow_alianzas{
+				position: absolute;
+				bottom: 60px;
+			}
+		}
+
+		.rectangulo_blanco{
+			display: initial;
+		}
+
+		.triangulo_blanco{
+			display:initial;
+			width: 0;
+			height: 0;
+			border-style: solid;
+			border-width: 100vh 0 0 108px;
+			border-color: transparent transparent transparent hsla(100%, 100%, 100%, 0.6);
+		}
+	}
+
+
+
+
+
+	#nuestros_clientes{
+		h3{
+			padding-left: 30px;
+			padding-top: 83px;
+			width: 220px;
+			line-height: 1;
+		}
+
+		#carrousel_clientes{
+			width: 256px;
+			height: 128px;
+			left: initial;
+			bottom: 52px;
+			right: 21px;
+			background: transparent;
+		}
+
+		.flecha_abajo{
+			position: absolute;
+			bottom: 22px;
+			left: 50%;
+			transform: translateX(-50%);
+			width: 31px;
+			height: 14px;
+		}
+
+		.rectangulo_blanco{
+			position: absolute;
+			right: 0;
+			bottom: 0;
+			width: 195px;
+			height: 100vh;
+			background-color: rgba(255, 255, 255, 0.6);
+		}
+
+		.triangulo_blanco{
+			position: absolute;
+			width: 0;
+			height: 0;
+			right: 195px;
+			bottom: 0;
+			border-style: solid;
+			border-width: 0 0 100vh 169px;
+			border-color: transparent transparent hsla(100%, 100%, 100%, 0.6);
+		}
+
+	}
+
+
+	.footerB1{
+		justify-content: center;
+
+		a{
+			margin-top: 15px;
+			margin-right: 5px;
+		}
+	}
+
+
+	/*****Contacto****/
+	#mapa_contacto{
+		margin-top: 30px;
+		height: 200px;
+		width: 240px;
+	}	
+}

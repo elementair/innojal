@@ -1,0 +1,173 @@
+/***Formación de las secciones BCAgro***/
+
+/*****Index*****/
+-Menú
+	--Navicon [Cerrar]
+	--Menu 1a
+		--p [Teléfono]
+		--p [Copyright]
+	--Menu1b
+		---ul
+			----li [Productos]
+			----li [Asesoría]
+			----li [Galería]
+			----li [Contacto]
+		--Hr
+		--Img [Logo Facebook]
+		--Img [Logo Correo]
+
+-Index1
+	--Logotipo
+	--Navicon
+	--Titulo
+	--Indicadores Derecha (Posicionado)
+	--Flecha hacia abajo (Posicionado)
+	--Degradado amarillo (Posicionado)
+
+-Index2
+	--Navicon
+	--Index2a
+		---Img [Quienes Somos]
+	--Index2b
+		---h3
+		---p
+	--Indicadores Derecha (Posicionado)
+	--Flecha hacia abajo (Posicionado)
+
+-Index3
+	--Navicon
+	--Index3a
+		---h3
+		---p
+	--Indicadores Derecha (Posicionado)
+	--Flecha hacia abajo (Posicionado)
+
+-Index4
+	--Navicon
+	--Index4a
+		---h3
+		---p
+	--Index4b
+		---Img1 [Dricolls]
+		---Img2	[Berrymex]
+		---Img3 [Divemex]
+
+-Footer
+	--footera
+		---p [Correo]
+		---p Dirección
+		---p teléfono
+		---Img [logotipo] (Posicionado)
+
+	--footerB
+		---footerB1
+			---Img [Facebook]
+			---Img [Correo]
+		---footerB2
+			---p/span [Copyright]
+			---p/span [Todos los derechos reservados]
+			---p/span [Aviso de Privacidad]
+
+
+
+
+
+/*****Producto Individual*****/
+-Productos1
+	--NavProductos
+		--img [Logotipo]
+		--Navicon
+	--h1
+	--p
+-Productos2
+	--Productos2a
+		---ul
+			----li
+			----li
+			----li
+			----li
+			----li
+			----li
+			----li
+	--Productos2b
+		---Input search
+		---img
+		---img
+		---img
+		---img
+		---img
+		---img
+		---img
+-Footer
+	--footera
+		---p [Correo]
+		---p Dirección
+		---p teléfono
+		---Img [logotipo] (Posicionado)
+
+	--footerB
+		---footerB1
+			---Img [Facebook]
+			---Img [Correo]
+		---footerB2
+			---p/span [Copyright]
+			---p/span [Todos los derechos reservados]
+			---p/span [Aviso de Privacidad]
+
+
+
+
+
+/*****Producto Individual*****/
+-ProductoIndividual1
+	--Productos1a
+		---Img [Producto]
+		---Img [Icono izquierda]
+		---Img [Icono Derecha]
+	--Productos1b
+		---h1 [Nombre Producto]
+		---h2 [Descripcion]
+		---p  [descripción]
+		---hr
+		---h3
+		---table
+			----td [Calcio]
+			----td [Nitrógeno]
+			----td [Boro]
+			----td [Agentes]
+			----td [Extractos]
+			----td [Diluyentes]
+		---hr
+		---Button [Regresar]
+
+
+
+
+/*****Contacto*****/
+-Contacto1
+	--Navicon
+	--Contacto1a
+		---h1
+		---Form
+			----Input [Nombre]
+			----Input [Email]
+			----Input [Asunto]
+			----Textarea [Escribe tu mensaje]
+	--Contacto1b
+		---Img [Flecha Verde]
+
+-Footer
+	--footerA
+		---p [Correo]
+		---p Dirección
+		---p teléfono
+		---Img [logotipo] (Posicionado)
+
+	--footerB
+		---footerB1
+			---Img [Facebook]
+			---Img [Correo]
+		---footerB2
+			---p/span [Copyright]
+			---p/span [Todos los derechos reservados]
+			---p/span [Aviso de Privacidad]

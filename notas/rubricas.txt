@@ -1,0 +1,117 @@
+/***Acciones por realizar
+BACKEND
+-Barra de busqueda de productos
+-Manera alternativa de los procesos con AJAX [Opcional]
+
+FRONT END
+-Visibilidades de los diferentes navicon en productos individuales.
+-Poner links en los iconos y palabras correspondientes.
+-Hacer que cambie el icono de menu en Hover.
+-Hacer imagenes en producto individual a modo de Carrousel.
+-Hacer funcionar formulario de contacto [BC Agro Y Frida Kahlo].
+-Cambiar ondas en Index de frida Kahlo.
+
+
+
+/*****BD Página*****/
+-VideosIndex
+	-ID
+	-Título
+	-URL/Ruta
+
+-Productos
+	-ID
+	-Nombre
+	-Img/Ruta
+	-Descripción
+	-PROPIEDADES/CARACTERÍSTICAS [a modo de texto de como separar las propiedades en una tabla]
+	-ID Grupo []
+
+-Grupo Producto
+	-ID
+	-Nombre
+	-Observaciones
+
+
+
+
+
+
+
+
+/*****Secciones terminadas (CSS)*****/
+
+/***360
+✓-Menú
+✓-Portada
+✓-Quienes Somos
+✓-Asesoría en campo
+✓-Nuestros Clientes
+✓-Contacto
+-Productos
+✓-Productos individuales
+✓-Nosotros
+
+
+
+/***576
+✓-Menú
+✓-Portada
+✓-Quienes Somos
+✓-Asesoría en campo
+✓-Nuestros Clientes
+✓-Contacto
+✓-Productos
+✓-Productos individuales
+✓-Nosotros
+
+
+
+/***768
+✓-Menú
+✓-Portada
+✓-Quienes Somos
+✓-Asesoría en campo
+✓-Nuestros Clientes
+✓-Contacto
+✓-Productos
+✓-Productos individuales
+✓-Nosotros
+
+
+
+/***1024
+✓-Menú
+✓-Portada
+✓-Quienes Somos
+✓-Asesoría en campo
+✓-Nuestros Clientes
+✓-Contacto
+✓-Productos
+✓-Productos individuales
+✓-Nosotros
+
+
+/***1200
+✓-Menú
+✓-Portada
+✓-Quienes Somos
+✓-Asesoría en campo
+✓-Nuestros Clientes
+✓-Contacto
+✓-Productos
+✓-Productos individuales
+✓-Nosotros
+
+
+
+/***1920
+✓-Menú
+✓-Portada
+✓-Quienes Somos
+✓-Asesoría en campo
+✓-Nuestros Clientes
+✓-Contacto
+✓-Productos
+✓-Productos individuales
+✓-Nosotros

@@ -1,0 +1,81 @@
+@media only screen and (min-width: 992px){
+	#fixedBtn-menuIndex{
+		.btn-menuText{
+			top: 10px;
+			right: 0px;
+		}
+	}
+	
+
+	/*****Index*****/
+	#asesoria_en_campo{
+		h2{
+			padding-left: 470px;
+			padding-top: 141px;
+		}
+
+		p{
+			padding-left: 470px;
+			margin-top: 27px;
+		}
+
+		#img_manos_asesoria{
+			width: 512px;
+			height: 543px;
+		}
+	}
+
+
+
+
+	#alianzas_comerciales{
+		.row{
+			flex-direction: row-reverse;
+		}
+
+		p{
+			padding-left: 45px;
+			padding-right: 60px;
+		}
+
+		#carrousel_alianzas{
+			height: 100vh;
+			width: 360px;
+			margin-top: 0;
+
+			#slideshow_alianzas{
+				position: absolute;
+				bottom: 50px;
+				left: 30px;
+			}
+		}
+
+		.rectangulo_blanco{
+			display: initial;
+			width: 140px;
+		}
+
+		.triangulo_blanco{
+			left: 140px;
+			border-width: 100vh 0 0 330px;
+		}
+
+		.flecha_abajo{
+			width: 41px;
+			height: 18px;
+		}
+	}
+
+	.footerB1{
+		a{
+			margin-top: 0;
+			margin-right: 5px;
+		}
+	}
+
+	.footerB2{
+		p{
+			font-size: 12px;
+		}
+	}
+}
